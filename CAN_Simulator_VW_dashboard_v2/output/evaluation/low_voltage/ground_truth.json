@@ -1,0 +1,8 @@
+{
+  "scenario": "low_voltage",
+  "injected_faults": [
+    "simulated_12v_supply_drop"
+  ],
+  "injection_starts_s": 22,
+  "internal_only": true
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Declarative mapping from DBC signal names to simulated vehicle-state keys. Unmapped signals are synthetic placeholders, NOT real measurements.",
+  "messages": {
+    "Motor_04": {
+      "MO_Istgang": "gear",
+      "MO_Sollgang": "gear",
+      "MO_Anzeigedrehz": "rpm"
+    },
+    "Getriebe_11": {
+      "GE_Zielgang": "gear"
+    },
+    "ESP_NEW_1": {
+      "WHEEL_SPEED_FL": "wheel_fl",
+      "WHEEL_SPEED_FR": "wheel_fr",
+      "WHEEL_SPEED_RL": "wheel_rl",
+      "WHEEL_SPEED_RR": "wheel_rr"
+    }
+  },
+  "message_online_state": {"ESP_NEW_1": "abs_online"}
+}

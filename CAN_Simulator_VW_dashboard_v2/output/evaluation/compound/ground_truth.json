@@ -1,0 +1,9 @@
+{
+  "scenario": "compound",
+  "injected_faults": [
+    "simulated_12v_supply_drop",
+    "simulated_abs_ecu_dropout"
+  ],
+  "injection_starts_s": 22,
+  "internal_only": true
+}

@@ -1,0 +1,26 @@
+{
+  "scenario": "abs_fr_sensor",
+  "engine": "dynamic_dbc",
+  "duration_s": 55.0,
+  "frames_sent": 15096,
+  "fd_frames": 1776,
+  "messages_in_dbc": 136,
+  "messages_requested": 136,
+  "messages_emitted": 136,
+  "messages_skipped": {},
+  "events_detected": [
+    "ABS_FR_SIGNAL_LOSS"
+  ],
+  "confirmed_dtcs": [
+    "C101B"
+  ],
+  "source": "synthetic_dbc_structural",
+  "dbc_name": "vw_mqbevo.dbc",
+  "dbc_sha256": "1d5ef1ee33e7455ef6e79969af301df8f13842036adb651471504624836a2e5f",
+  "parser": "cantools-45.2.0",
+  "real_vehicle_capture": false,
+  "vehicle_compatibility_verified": false,
+  "oem_checksum_implemented": false,
+  "sampling_floor_ms": 500,
+  "note": "Unmapped signals use neutral synthetic placeholders; DBC timing is not a validated bus schedule."
+}

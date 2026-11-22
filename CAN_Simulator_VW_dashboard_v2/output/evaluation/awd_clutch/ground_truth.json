@@ -1,0 +1,8 @@
+{
+  "scenario": "awd_clutch",
+  "injected_faults": [
+    "simulated_rear_coupling_underresponse"
+  ],
+  "injection_starts_s": 22,
+  "internal_only": true
+}

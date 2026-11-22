@@ -1,0 +1,1 @@
+"""FastAPI observation-only service."""

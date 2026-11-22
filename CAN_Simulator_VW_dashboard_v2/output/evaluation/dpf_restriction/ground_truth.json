@@ -1,0 +1,8 @@
+{
+  "scenario": "dpf_restriction",
+  "injected_faults": [
+    "simulated_dpf_restriction"
+  ],
+  "injection_starts_s": 22,
+  "internal_only": true
+}

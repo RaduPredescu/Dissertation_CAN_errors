@@ -1,0 +1,8 @@
+{
+  "scenario": "egr_flow",
+  "injected_faults": [
+    "simulated_egr_flow_restriction"
+  ],
+  "injection_starts_s": 22,
+  "internal_only": true
+}

@@ -1,0 +1,27 @@
+VERSION "MQBevo reference subset – for offline RESEARCH ONLY"
+NS_ :
+BS_:
+BU_: Gateway_MQB Motor_Diesel_MQB Getriebe_DQ_Hybrid_MQB XXX
+
+BO_ 263 Motor_04: 8 Motor_Diesel_MQB
+ SG_ MO_Istgang : 8|4@1+ (1,0) [0|15] "" Gateway_MQB
+ SG_ MO_Sollgang : 12|4@1+ (1,0) [0|15] "" Gateway_MQB
+ SG_ MO_Oeldruck : 16|8@1+ (0.04,0) [0|10] "bar" Gateway_MQB
+ SG_ MO_Anzeigedrehz : 24|12@1+ (3,0) [0|12282] "rpm" Gateway_MQB
+ SG_ MO_Ladedruck : 39|9@1+ (0.01,0) [0|5.1] "bar" Gateway_MQB
+
+BO_ 252 ESP_NEW_1: 48 XXX
+ SG_ XCHECKSUM : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ COUNTER : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ WHEEL_SPEED_RL : 64|16@1+ (0.0075,0) [0|65535] "" XXX
+ SG_ WHEEL_SPEED_RR : 80|16@1+ (0.0075,0) [0|65535] "" XXX
+ SG_ WHEEL_SPEED_FL : 96|16@1+ (0.0075,0) [0|65535] "" XXX
+ SG_ WHEEL_SPEED_FR : 112|16@1+ (0.0075,0) [0|65535] "" XXX
+
+BO_ 173 Getriebe_11: 8 Getriebe_DQ_Hybrid_MQB
+ SG_ CHECKSUM : 0|8@1+ (1,0) [0|255] "" Gateway_MQB
+ SG_ COUNTERXX : 8|4@1+ (1,0) [0|15] "" Gateway_MQB
+ SG_ GE_Fahrstufe : 42|5@1+ (1,0) [0|31] "" Gateway_MQB
+ SG_ GE_Schaltvorgang : 47|1@1+ (1,0) [0|1] "" Gateway_MQB
+ SG_ GE_Status_Kupplung : 54|2@1+ (1,0) [0|3] "" Gateway_MQB
+ SG_ GE_Zielgang : 60|4@1+ (1,0) [0|15] "" Gateway_MQB

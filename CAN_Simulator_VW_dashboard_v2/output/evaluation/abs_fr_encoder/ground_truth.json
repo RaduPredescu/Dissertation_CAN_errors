@@ -1,0 +1,8 @@
+{
+  "scenario": "abs_fr_encoder",
+  "injected_faults": [
+    "wheel_encoder_fr_irregular_signal"
+  ],
+  "injection_starts_s": 22,
+  "internal_only": true
+}

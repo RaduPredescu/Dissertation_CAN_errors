@@ -1,0 +1,22 @@
+{
+  "scenario": "healthy",
+  "engine": "dynamic_dbc",
+  "duration_s": 55.0,
+  "frames_sent": 333,
+  "fd_frames": 111,
+  "messages_in_dbc": 3,
+  "messages_requested": 3,
+  "messages_emitted": 3,
+  "messages_skipped": {},
+  "events_detected": [],
+  "confirmed_dtcs": [],
+  "source": "synthetic_dbc_structural",
+  "dbc_name": "vw_mqbevo_reference_subset.dbc",
+  "dbc_sha256": "2ae97a4feb5ddc1fd7083c0cceade7ecef71d8a77d322688b66c1243ef764de8",
+  "parser": "cantools-45.2.0",
+  "real_vehicle_capture": false,
+  "vehicle_compatibility_verified": false,
+  "oem_checksum_implemented": false,
+  "sampling_floor_ms": 500,
+  "note": "Unmapped signals use neutral synthetic placeholders; DBC timing is not a validated bus schedule."
+}

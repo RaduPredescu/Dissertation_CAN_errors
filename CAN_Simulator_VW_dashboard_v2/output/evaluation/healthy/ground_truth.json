@@ -1,0 +1,6 @@
+{
+  "scenario": "healthy",
+  "injected_faults": [],
+  "injection_starts_s": 22,
+  "internal_only": true
+}

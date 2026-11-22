@@ -1,0 +1,1 @@
+{"code":"P0562","first_seen_s":35.0,"status":"testFailed + confirmed (simulat)","module":"19 · Gateway / alimentare","component":"Alimentare 12 V / sistem de încărcare","verification":"Cod exemplificativ, nu citire din Tiguan 2025","note":"Cod OBD generic exemplificativ; nu este preluat de la un ECU VW real","service":"UDS 0x19 – model conceptual, nu sesiune OEM reală"}
