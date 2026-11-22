@@ -1,0 +1,8 @@
+{
+  "scenario": "dsg_overheat",
+  "injected_faults": [
+    "simulated_transmission_cooling_limitation"
+  ],
+  "injection_starts_s": 22,
+  "internal_only": true
+}

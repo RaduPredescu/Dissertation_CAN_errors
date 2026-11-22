@@ -1,0 +1,8 @@
+{
+  "scenario": "abs_fr_sensor",
+  "injected_faults": [
+    "wheel_speed_sensor_fr_signal_loss"
+  ],
+  "injection_starts_s": 22,
+  "internal_only": true
+}

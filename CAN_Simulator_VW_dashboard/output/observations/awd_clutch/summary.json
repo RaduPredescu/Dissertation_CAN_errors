@@ -1,0 +1,16 @@
+{
+  "scenario": "awd_clutch",
+  "duration_s": 55.0,
+  "frames_sent": 333,
+  "fd_frames": 111,
+  "events_detected": [
+    "AWD_COUPLING_UNDERRESPONSE"
+  ],
+  "confirmed_dtcs": [],
+  "source": "synthetic_mqbevo_reference_subset",
+  "dbc_name": "vw_mqbevo_reference_subset.dbc",
+  "dbc_sha256": "2ae97a4feb5ddc1fd7083c0cceade7ecef71d8a77d322688b66c1243ef764de8",
+  "real_vehicle_capture": false,
+  "oem_checksum_implemented": false,
+  "vehicle_compatibility_verified": false
+}
